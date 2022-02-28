@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "browserify lib/main.js -o dist/main.js -d",
-    "start": "ws"
+    "start": "npm run build && ws"
   },
   "keywords": [],
   "browserify": {

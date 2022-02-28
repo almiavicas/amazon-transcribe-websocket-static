@@ -19,8 +19,9 @@ We use [browserify](https://github.com/browserify/browserify) to enable browser 
 1. Clone the repo
 2. run `npm install`
 3. run `npm run-script build` to generate `dist/main.js`.
+4. run `npm start`.
 
-Once you've bundled the JavaScript, all you need is a webserver. For example, from your project directory: 
+If it is not working you might need to install a webserver. Once you've bundled the JavaScript, all you need is a webserver. For example, from your project directory: 
 
 ```
 npm install --global local-web-server
